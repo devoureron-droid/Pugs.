@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    color: white;
+    background: brown;
+}
+
+.logo-link { display: flex; align-items: center; gap: 10px; color: white; }
+header img { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+nav a { margin-left: 15px; color: white; text-decoration: none; }
+
+main { max-width: 1000px; margin: auto; }
+.intro { padding: 50px 0 30px; }
+h1 { margin: 0; font-size: 48px; line-height: 1.1; }
+.summary { max-width: 650px; color: gray; font-size: 18px; }
+
+.content { display: flex; gap: 40px; padding: 30px 0 60px; border-top: 1px solid black; }
+article { flex: 1; font-size: 17px; }
+figure { width: 320px; margin: 0; }
+figure img { width: 100%; border-radius: 4px; }
+footer { background-color: brown; padding: 20px 5%; border-top: 1px solid brown; }
+footer a { color: goldenrod; font-weight: bold; text-decoration: none; margin-left: 10px; justify-content: space-evenly; }
+footer div { display: flex; align-items: center; justify-content: center;}
